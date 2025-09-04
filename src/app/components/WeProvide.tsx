@@ -31,12 +31,23 @@ const WeProvide = () => {
           </div>
         </div>
         <div className="lg:w-[40%] mt-12 lg:ml-28 flex flex-col gap-4">
-        <h1 className="text-4xl">We provide healthy food for your family.</h1>
-        <p>Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.</p>
-        <p className="text-sm">At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
-        <div>
-        <button className="mt-4 border-2 border-black py-1.5 px-4 rounded-3xl text-sm">More About Us</button>
-        </div>
+          <h1 className="text-4xl">We provide healthy food for your family.</h1>
+          <p>
+            Our story began with a vision to create a unique dining experience
+            that merges fine dining, exceptional service, and a vibrant
+            ambiance. Rooted in city's rich culinary culture, we aim to honor
+            our local roots while infusing a global palate.
+          </p>
+          <p className="text-sm">
+            At place, we believe that dining is not just about food, but also
+            about the overall experience. Our staff, renowned for their warmth
+            and dedication, strives to make every visit an unforgettable event.
+          </p>
+          <div>
+            <button className="mt-4 border-2 border-black py-1.5 px-4 rounded-3xl text-sm">
+              More About Us
+            </button>
+          </div>
         </div>
       </div>
     </div>

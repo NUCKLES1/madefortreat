@@ -7,7 +7,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 const page = () => {
   return (
     <div>
-      <div className=" bg-[#dbdfd058] pt-28 ">
+      <div className=" bg-[#dbdfd058] pt-28">
         <div className="flex px-30">
           <div className="w-[40%]">
             <Image
@@ -35,7 +35,6 @@ const page = () => {
           </div>
           <div className="w-[40%] mt-12 ml-28 flex flex-col gap-4">
             <h1 className="text-4xl">
-              {" "}
               We provide healthy food for your family.
             </h1>
             <p>
@@ -55,7 +54,6 @@ const page = () => {
         <div className="flex pt-30 px-30">
           <div className="w-[40%] ml-28 flex flex-col gap-4">
             <h1 className="text-4xl">
-              {" "}
               A little information for our valuable guest
             </h1>
             <p className="text-sm">

@@ -39,7 +39,7 @@ const Testimonials = () => {
             className="w-full h-84 text-left flex flex-col gap-2 rounded-lg overflow-hidden bg-[#dbdfd058] p-8"
           >
             <h1 className="font-semibold pt-4 text-[#AD343E] text-xl ">
-              "{item.title}"
+              {item.title}
             </h1>
             <p className="leading-5 text-gray-500 text-sm pt-2">{item.description}</p>
             <div className="flex mt-12">
