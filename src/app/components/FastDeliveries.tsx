@@ -2,9 +2,6 @@ import React from "react";
 import Image from "next/image";
 import {
   Clock,
-  Mail,
-  MapPin,
-  Phone,
   ShoppingCart,
   SquarePercent,
 } from "lucide-react";

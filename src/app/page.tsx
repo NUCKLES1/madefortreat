@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./components/Hero";
 import Browse from "./components/Browse";
 import WeProvide from "./components/WeProvide";
