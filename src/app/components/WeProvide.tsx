@@ -35,7 +35,7 @@ const WeProvide = () => {
           <p>
             Our story began with a vision to create a unique dining experience
             that merges fine dining, exceptional service, and a vibrant
-            ambiance. Rooted in city's rich culinary culture, we aim to honor
+            ambiance. Rooted in city rich culinary culture, we aim to honor
             our local roots while infusing a global palate.
           </p>
           <p className="text-sm">
