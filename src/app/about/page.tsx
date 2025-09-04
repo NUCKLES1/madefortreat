@@ -8,8 +8,8 @@ const page = () => {
   return (
     <div>
       <div className=" bg-[#dbdfd058] pt-28">
-        <div className="flex px-30">
-          <div className="w-[40%]">
+        <div className="lg:flex px-30 max-sm:px-4">
+          <div className="lg:w-[40%]">
             <Image
               src="/birthday.jpg"
               width={500}
@@ -17,7 +17,7 @@ const page = () => {
               alt="We Provide Image"
               className="h-[70vh] rounded-xl object-cover"
             />
-            <div className="flex flex-col float-right gap-4 bg-[#474747] h-60 w-80 rounded-xl -mt-48 -mr-10 relative z-0 text-[#dbdfd0f6] p-10">
+            <div className="flex flex-col lg:float-right gap-4 bg-[#474747] h-60 w-80 rounded-xl -mt-48 -mr-10 relative z-0 text-[#dbdfd0f6] p-10">
               <p className="font-bold">Come Visit Us</p>
               <div className="flex text-sm">
                 <Phone />
@@ -33,7 +33,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="w-[40%] mt-12 ml-28 flex flex-col gap-4">
+          <div className="lg:w-[40%] mt-12 lg:ml-28 flex flex-col gap-4">
             <h1 className="text-4xl">
               We provide healthy food for your family.
             </h1>
@@ -51,8 +51,8 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="flex pt-30 px-30">
-          <div className="w-[40%] ml-28 flex flex-col gap-4">
+        <div className="lg:flex pt-30 lg:px-30">
+          <div className="lg:w-[40%] lg:ml-28 max-sm:px-4 flex flex-col gap-4">
             <h1 className="text-4xl">
               A little information for our valuable guest
             </h1>
@@ -74,7 +74,7 @@ const page = () => {
             </div>
             </div>
           </div>
-          <div className="w-[40%] ml-6">
+          <div className="lg:w-[40%] lg:ml-6 max-sm:px-4">
             <Image
               src="/birthday.jpg"
               width={500}

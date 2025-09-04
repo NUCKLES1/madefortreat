@@ -82,7 +82,7 @@ const Menu = () => {
 
   return (
     <div>
-      <div className="pt-30 px-20">
+      <div className="pt-30 px-20 max-sm:px-4">
         <div className="flex flex-col gap-4 text-center">
           <h1 className="text-6xl">Our menu</h1>
           <p>
@@ -109,18 +109,18 @@ const Menu = () => {
             ))}
           </div>
           {/* Products for active tab */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 max-sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredProducts.map((product) => (
               <div
                 key={product.id}
-                className="border p-4 rounded-4xl shadow-sm bg-white h-100"
+                className="border p-4 rounded-4xl max-sm:rounded-2xl shadow-sm bg-white h-100 max-sm:h-78"
               >
                 <Image
                   src={product.src ?? "/default-image.jpg"}
                   alt=""
                   width={500}
                   height={500}
-                  className="rounded-xl h-70 object-fill"
+                  className="rounded-xl h-70 max-sm:h-50 object-fill"
                 />
                 <h2 className="text-lg font-semibold pt-4">{product.name}</h2>
                 <p className="text-sm text-gray-500">{product.category}</p>

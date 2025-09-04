@@ -43,7 +43,7 @@ const Testimonials = () => {
             </h1>
             <p className="leading-5 text-gray-500 text-sm pt-2">{item.description}</p>
             <div className="flex mt-12">
-              <Image src={item.src} alt="" className="w-10 h-10 rounded-full" />
+              <Image src={item.src} width={40} height={40} alt="" className="w-10 h-10 rounded-full" />
               <div className="ml-2">
               <p className="text-[#949C99] pl-2 font-semibold">{item.name}</p>
               <p className="text-[#949C99] pl-2 text-sm">{item.location}</p>
