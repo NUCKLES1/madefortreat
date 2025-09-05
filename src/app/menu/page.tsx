@@ -3,9 +3,10 @@
 import React, { useState } from "react";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import Nav from "../components/Nav";
 
 // Example categories and products
-const categories = ["All", "Rice", "Swallow", "Pastries"];
+const categories = ["All", "Dishes", "Swallow", "Pastries"];
 const products = [
   {
     id: 1,
@@ -15,11 +16,11 @@ const products = [
   },
   {
     id: 2,
-    name: "Fried Rice",
+    name: "Fried Dishes",
     src: "/fried-rice.jpg",
-    category: "Rice",
+    category: "Dishes",
   },
-  { id: 3, name: "Jollof Rice", src: "/jollo.jpg", category: "Rice" },
+  { id: 3, name: "Jollof Dishes", src: "/jollo.jpg", category: "Dishes" },
   { id: 4, name: "PuffPuff", src: "/puffpuff.jpg", category: "Pastries" },
   {
     id: 5,
@@ -35,7 +36,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Amala and soup",
+    name: "Amala and gbegiri ati ewedu",
     src: "/amala.jpg",
     category: "Swallow",
   },
@@ -47,9 +48,9 @@ const products = [
   },
   {
     id: 9,
-    name: "Ofada rice",
+    name: "Ofada Dishes",
     src: "/ofada.jpg",
-    category: "Rice",
+    category: "Dishes",
   },
   {
     id: 10,
@@ -67,7 +68,73 @@ const products = [
     id: 12,
     name: "Rice and stew",
     src: "/rice.png",
-    category: "Rice",
+    category: "Dishes",
+  },
+  {
+    id: 13,
+    name: "Beans and Plaintain",
+    src: "/beansplantain.jpg",
+    category: "Dishes",
+  },
+  {
+    id: 14,
+    name: "Buns",
+    src: "/buns.jpg",
+    category: "Pastries",
+  },
+  {
+    id: 15,
+    name: "Chicken and chips",
+    src: "/Chips.jpg",
+    category: "Dishes",
+  },
+  {
+    id: 16,
+    name: "Eforiro",
+    src: "/EfoRiro.jpg",
+    category: "Swallow",
+  },
+  {
+    id: 17,
+    name: "Egg sauce and yam",
+    src: "/eggsauce.png",
+    category: "Dishes",
+  },
+  {
+    id: 18,
+    name: "Egg sauce and yam",
+    src: "/hotdog.png",
+    category: "Pastries",
+  },
+  {
+    id: 19,
+    name: "Okro soup",
+    src: "/okro.png",
+    category: "Swallow",
+  },
+  {
+    id: 20,
+    name: "ponmo alata",
+    src: "/ponmo.jpg",
+    category: "Dishes",
+  },
+  {
+    id: 21,
+    name: "Yam porridge",
+    src: "/Yam-Porridge.jpg",
+    category: "Dishes",
+  },
+  {
+    id: 22,
+    name: "Barbecue fish or chicken",
+    src: "/bbq.png",
+    category: "Dishes",
+  },
+  {
+    id: 23,
+    name: "Gbegiri",
+    src: "/gbegiri.png",
+    category: "Swallow",
   },
 ];
 
@@ -82,6 +149,7 @@ const Menu = () => {
 
   return (
     <div>
+      <Nav />
       <div className="pt-30 px-20 max-sm:px-4">
         <div className="flex flex-col gap-4 text-center">
           <h1 className="text-6xl">Our menu</h1>

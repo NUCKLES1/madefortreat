@@ -5,10 +5,12 @@ import WeOffer from "./components/WeOffer";
 import FastDeliveries from "./components/FastDeliveries";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import Nav from "./components/Nav";
 
 export default function Home() {
   return (
     <div>
+      <Nav />
       <Hero />
       <Browse />
       <WeProvide />

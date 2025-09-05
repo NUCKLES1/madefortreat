@@ -1,8 +1,11 @@
 import React from "react";
 import Form from "../components/Form";
+import Nav from "../components/Nav";
 
 const page = () => {
   return (
+    <div>
+        <Nav />
     <div className="h-screen pt-18 ">
       <div className="h-[60vh] pt-18 w-full bg-[#dbdfd058] ">
         <div className="px-88">
@@ -15,6 +18,7 @@ const page = () => {
           </div>
           <Form />
         </div>
+      </div>
       </div>
     </div>
   );

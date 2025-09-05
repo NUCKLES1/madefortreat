@@ -3,15 +3,17 @@ import Footer from "../components/Footer";
 import Testimonials from "../components/Testimonials";
 import Image from "next/image";
 import { Mail, MapPin, Phone } from "lucide-react";
+import Nav from "../components/Nav";
 
 const page = () => {
   return (
     <div>
+      <Nav />
       <div className=" bg-[#dbdfd058] pt-28">
         <div className="lg:flex px-30 max-sm:px-4">
           <div className="lg:w-[40%]">
             <Image
-              src="/birthday.jpg"
+              src="/boss.jpg"
               width={500}
               height={500}
               alt="We Provide Image"
@@ -52,7 +54,7 @@ const page = () => {
           </div>
         </div>
         <div className="lg:flex pt-30 lg:px-30">
-          <div className="lg:w-[40%] lg:ml-28 max-sm:px-4 flex flex-col gap-4">
+          <div className="lg:w-[40%] lg:ml-28 max-sm:px-4 flex flex-col gap-4 max-sm:pb-20">
             <h1 className="text-4xl">
               A little information for our valuable guest
             </h1>
@@ -76,11 +78,11 @@ const page = () => {
           </div>
           <div className="lg:w-[40%] lg:ml-6 max-sm:px-4">
             <Image
-              src="/birthday.jpg"
+              src="/catera.jpg"
               width={500}
               height={500}
               alt="We Provide Image"
-              className="h-[90vh] rounded-xl object-cover"
+              className="h-[90vh] max-sm:h-[70vh] rounded-xl object-cover"
             />
           </div>
         </div>
