@@ -12,11 +12,11 @@ const Form = () => {
   return (
     <div
       id="register"
-      className="w-full max-sm:px-10 max-sm:h-[60vh] h-auto pb-20 mt-12 text-font bg-white rounded-2xl shadow-md"
+      className="w-full max-sm:px-6 max-sm:h-[60vh] h-auto pb-20 mt-12 text-font bg-white rounded-2xl shadow-md"
     >
       <div className="w-full pt-8">
         <form onSubmit={handleSubmit} className="w-80 max-sm:w-full lg:mx-6 ">
-          <div className="flex">
+          <div className="lg:flex">
             <div>
               <p>Name</p>
               <input
@@ -27,14 +27,14 @@ const Form = () => {
                 className="w-60 bg-transparent text-[16px] max-sm:text-xl max-sm:pb-2 max-sm:w-full border outline-none hover:border-[#231f20] p-3 pl-4 rounded-4xl border-black text-black mt-2"
               />
             </div>
-            <div>
+            <div className="max-sm:mt-4">
               <p>Email</p>
               <input
                 placeholder="Email:"
                 id="email"
                 type="email"
                 name="email"
-                className="w-60 bg-transparent text-[16px] max-sm:text-xl max-sm:pb-2 max-sm:w-full border outline-none hover:border-[#231f20] p-3 pl-4 rounded-4xl border-black text-black mt-2 ml-4"
+                className="w-60 bg-transparent text-[16px] max-sm:text-xl max-sm:pb-2 max-sm:w-full border outline-none hover:border-[#231f20] p-3 pl-4 rounded-4xl border-black text-black mt-2  lg:ml-4"
               />
             </div>
           </div>
@@ -46,11 +46,11 @@ const Form = () => {
             placeholder="Message:"
             id="message"
             name="message"
-            className="w-full bg-transparent text-[16px] max-sm:text-xl max-sm:pb-2 max-sm:w-full border outline-none hover:border-[#231f20] p-3 pl-4 rounded-4xl border-black text-black mt-2 -pt-10 h-32"
+            className="w-full bg-transparent text-[16px] max-sm:text-xl max-sm:pb-2 max-sm:w-full border outline-none hover:border-[#231f20] p-3 pl-4 rounded-4xl max-sm:rounded-2xl border-black text-black mt-2 -pt-10 h-32"
           />
           </div>
           <button
-            className="bg-[#AD343E] hover:bg-black hover:border-2 border-[#ffed00] duration-300 w-124 rounded cursor-pointer uppercase hover:text-[#ffed00] py-4 text-black mt-10"
+            className="bg-[#AD343E] hover:bg-black hover:border-2 border-[#ffed00] duration-300 lg:w-124 rounded cursor-pointer uppercase hover:text-[#ffed00] py-4 text-white mt-10 max-sm:px-8"
             type="submit"
             disabled={state.submitting}
           >
